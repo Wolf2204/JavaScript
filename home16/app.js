@@ -8,10 +8,10 @@ var bInput = prompt('Введите фамилию'),
 e;
 
 if (ageInput > 60) {
-    e = 'да'
+    e = 'да';
 }
 else {
-    e = 'нет'
+    e = 'нет';
 }
 
 alert('Ваше ФИО: ' + bInput + ' ' + aInput + ' ' + cInput + '\nваш возраст в годах: ' + ageInput + '\nваш возраст в днях: ' + d
