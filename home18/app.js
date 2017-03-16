@@ -26,16 +26,15 @@ function requestLimits() {
 
 }
 
-var mas = generateArray(prompt('Введите максимальную длину массива'));
-for (i=0; i<mas.length; i++){
-    for (j=0; j<mas.length; j++){
-        if (mas[i]>mas[j]){
-            var a = mas[i];
-            mas [i]= mas [j];
-            mas [j]= a;}
+var arr = generateArray(prompt('Введите максимальную длину массива'));
+for (i = 0; i < arr.length; i++) {
+    for (j = 0; j < arr.length; j++) {
+        if (arr[i] > arr[j]) {
+            var a = arr[i];
+            arr[i] = arr[j];
+            arr[j] = a;
+        }
     }
 }
 
-
-
-console.log(mas);
+console.log(arr);
